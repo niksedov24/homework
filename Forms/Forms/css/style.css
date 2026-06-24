@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  width: 200px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+fieldset {
+  border: none;
+  padding-bottom: 0;
+}
+
+legend {
+  padding-top: 15px;
+  font-size: 20px;
+}
+.form {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.form-input {
+  padding: 5px;
+}
+
+.form-label-area {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.form-message {
+  resize: vertical;
+  padding: 5px;
+  max-height: 150px;
+  min-height: 25px;
+}
+
+.policy {
+  margin-top: 0px;
+  display: inline;
+  width: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
