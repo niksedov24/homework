@@ -1,0 +1,31 @@
+.experts__container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.experts__info-text {
+  font-family: var(--font-family);
+  line-height: 140%;
+  color: var(--main-color);
+}
+
+@media (width > 1200px) {
+  .experts__info-text {
+    max-width: 670px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+}
+@media (width<= 1200px) {
+  .experts__info-text {
+    max-width: inherit;
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .experts__picture {
+    display: none;
+  }
+}
