@@ -1,0 +1,47 @@
+.experts__section {
+  background-color: #f8f8f8;
+}
+
+.experts__container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.experts__info {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (width <=768px) {
+  .experts__info {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.experts__info-text {
+  font-family: var(--font-family);
+  line-height: 140%;
+  color: var(--main-color);
+}
+
+@media (width > 1200px) {
+  .experts__info-text {
+    max-width: 670px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+}
+@media (width<= 1200px) {
+  .experts__info-text {
+    max-width: inherit;
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .experts__picture {
+    display: none;
+  }
+}
