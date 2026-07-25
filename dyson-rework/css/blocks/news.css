@@ -1,0 +1,121 @@
+.news__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.news__card-img {
+  margin-bottom: 30px;
+}
+
+@media (width <=992px) {
+  .news__card-img {
+    margin-bottom: 12px;
+  }
+}
+
+@media (width <=768px) {
+  .news__card-img {
+    margin-bottom: 10px;
+    width: 170px;
+    height: 113px;
+  }
+  .news__card-article {
+    max-width: 170px;
+  }
+}
+
+.news__card-date {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #909090;
+  margin-bottom: 20px;
+}
+@media (width <=992px) {
+  .news__card-date {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (width <=768px) {
+  .news__card-date {
+    margin-bottom: 6px;
+  }
+}
+
+.news__card-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main-color);
+  margin-bottom: 15px;
+}
+
+@media (width <=992px) {
+  .news__card-title {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+}
+
+@media (width <=768px) {
+  .news__card-title {
+    font-size: 12px;
+  }
+}
+
+.news__card-text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+@media (width <=992px) {
+  .news__card-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (width <=768px) {
+  .news__card-text {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+}
+
+.news__card-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  transition: color var(--transition-time) border var(--transition-time);
+}
+
+@media (any-hover: hover) {
+  .news__card-link:hover {
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+  }
+}
+
+@media (width <=992px) {
+  .news__card-link {
+    font-size: 12px;
+  }
+}
+
+@media (width <=768px) {
+  .news__card-article--none {
+    display: none;
+  }
+}
