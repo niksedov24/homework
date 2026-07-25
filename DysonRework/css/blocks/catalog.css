@@ -160,6 +160,7 @@
   align-items: center;
   max-width: 440px;
   box-shadow: 0 3px 28px 0 rgba(0, 0, 0, 0.05);
+  background: var(--secondary-color);
 }
 
 @media (width <=1200px) {
