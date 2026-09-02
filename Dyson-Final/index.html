@@ -1,0 +1,1842 @@
+<!doctype html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="shortcut icon"
+      href="./icons/dyson-favicon-icon.ico"
+      type="image/x-icon"
+    />
+    <script type="module" src="./js/index.js"></script>
+    <title>Dyson</title>
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo-wrapper">
+          <button class="burger  header__burger" aria-expanded="false" aria-controls="header__menu">
+            <span class="header__burger-stroke"></span>
+            <span class="header__burger-stroke"></span>
+            <span class="header__burger-stroke"></span>
+          </button>
+          <a href="#" class="logo header__logo">
+            <img
+              width="183"
+              height="77"
+              class="header__logo-img"
+              src="./icons/logo.svg"
+              alt="Логотип Dyson"
+            />
+          </a>
+        </div>
+        <nav class="header__nav" >
+          <ul class="header__menu" id="header__menu"">
+            <li><a href="#" class="header__nav-link">О нас</a></li>
+            <li><a href="#" class="header__nav-link">Доставка и оплата</a></li>
+            <li>
+              <a href="#" class="header__nav-link">Регистрация продукта</a>
+            </li>
+            <li><a href="#" class="header__nav-link">Сервис</a></li>
+            <li>
+              <a href="#" class="header__nav-link">Сертификаты и лицензии</a>
+            </li>
+          </ul>
+        </nav>
+        <svg width="36" height="36" class="header__cart">
+          <use href="./icons/sprite.svg#cart"></use>
+        </svg>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero__section section">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <h1 class="hero__content-title">
+                Уникальные технологии для ухода за волосами
+              </h1>
+              <p class="hero__content-text">
+                Идеальная укладка для всех типов волос вместе с Dyson
+              </p>
+              <a href="#about" class="hero__content-link">Подробнее</a>
+            </div>
+            <picture class="hero__content-picture">
+              <source srcset="./images/dyson-woman-img.webp" />
+              <img
+                class="hero__content-img"
+                width="997"
+                height="850"
+                src="./images/dyson-woman-img.png"
+                alt="Девушка используерт розовый фен Dyson"
+              />
+            </picture>
+            <picture class="hero__content-small">
+              <source srcset="./images/dyson-woman-img.webp" />
+              <img
+                class="hero__content-img-mini"
+                width="997"
+                height="850"
+                src="./images/dyson-woman-img.png"
+                alt="Девушка используерт розовый фен Dyson"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="categories__section section">
+        <div class="container">
+          <div class="categories__container">
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source srcset="./images/categories/article-woman-img.webp" />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-woman-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Акции</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source srcset="./images/categories/article-dyson-img.webp" />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-dyson-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Фены</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source
+                    srcset="./images/categories/article-styler-img.webp"
+                  />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-styler-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Стайлеры</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source
+                    srcset="./images/categories/article-straightener-img.webp"
+                  />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-straightener-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Выпрямители</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source srcset="./images/categories/article-woman-img.webp" />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-woman-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Акции</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source srcset="./images/categories/article-dyson-img.webp" />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-dyson-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Фены</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source
+                    srcset="./images/categories/article-styler-img.webp"
+                  />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-styler-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Стайлеры</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a class="categories__card-link" href="#">
+              <article class="categories__card-article">
+                <picture class="categories__card-picture">
+                  <source
+                    srcset="./images/categories/article-straightener-img.webp"
+                  />
+                  <img
+                    class="categories__card-img"
+                    width="324"
+                    height="324"
+                    src="./images/categories/article-straightener-img.png"
+                    alt="Девушка используерт розовый фен Dyson"
+                  />
+                </picture>
+                <div class="categories__card-info">
+                  <h3 class="categories__card-title">Выпрямители</h3>
+                  <div class="categories__card-flex">
+                    <p class="categories__card-text">Подробнее</p>
+                    <svg class="categories__card-arrow" width="28" height="25">
+                      <use href="./icons/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="experts__section section">
+        <div class="container experts__container">
+          <div class="experts__info">
+            <h2 class="title-lg"">
+              Мнение экспертов о технике Dyson
+            </h2>
+            <p class="experts__info-text">
+              Сегодня многие стилисты и салоны красоты в своей работе используют
+              технику от Dyson.
+            </p>
+            <p class="experts__info-text">
+              Несмотря на высокую стоимость, техника Dyson помогает экономить.
+              Мастера тратят меньше времени на сушку и укладку волос, благодаря
+              чему успевают обслужить большее количество клиентов. Также
+              устройства от Dyson потребляют значительно меньше электроэнергии,
+              не теряя свою мощность.
+            </p>
+            <p class="experts__info-text">
+              Фены Dyson универсальны. Они подходят для сушки разных типов
+              волос. Насадки из комплекта помогают создавать укладки на любой
+              вкус. Функциональность девайсов впечатляет не меньше, чем их
+              уникальный дизайн.
+            </p>
+            <p class="experts__info-text">
+              Ведущие стилисты отмечают, что техника Dyson для ухода за волосами
+              идеально подходят для длительной работы за счет своей
+              эргономичности. А за счет бесшумности инновационного мотора
+              использование устройств стало максимально комфортным.
+            </p>
+          </div>
+          <picture class="experts__picture">
+            <source srcset="./images/dyson-woman-2-img.webp" />
+            <img
+              width="700"
+              height="700"
+              src="./images/dyson-woman-2-img.png"
+              alt="Женщина пользуется розовым феном Dyson, волосы летают"
+            />
+          </picture>
+        </div>
+      </section>
+      <section class="advantages__section section">
+      <div class="container advantages__container">
+      <h2 class="title-lg">Почему выбирают нас</h2>
+      <div class="advantages__wrapper">
+        <article class="advantages__article">
+          <img class="advantages__article-img" width="110" height="110" src="./images/advantages/advantages-1.svg" alt="Розовая корзина">
+          <div class="advantages__flex-wrapper">
+            <h3 class="advantages__title">Широкий ассортимент</h3>
+            <p class="advantages__text">Большой выбор техники <br>   и аксессуаров</p>
+          </div>
+        </article>
+        <article class="advantages__article">
+          <img class="advantages__article-img" src="./images/advantages/advantages-2.svg" alt="Розовая корзина">
+          <div class="advantages__flex-wrapper">
+          <h3 class="advantages__title">Широкий ассортимент</h3>
+          <p class="advantages__text">По Москве — 2-3 часа; <br> По России — 2-4 дня</p>
+          </div>
+        </article>
+        <article class="advantages__article">
+          <img class="advantages__article-img" src="./images/advantages/advantages-3.svg" alt="Розовая корзина">
+          <div class="advantages__flex-wrapper">
+          <h3 class="advantages__title">Специальное предложение</h3>
+          <p class="advantages__text">Только для клиентов <br> нашего сайта</p>
+          </div>
+        </article>
+        <article class="advantages__article">
+          <img class="advantages__article-img" src="./images/advantages/advantages-4.svg" alt="Розовая корзина">
+          <div class="advantages__flex-wrapper">
+          <h3 class="advantages__title">Гарантия производителя</h3>
+          <p class="advantages__text">Гарантия 2 года <br>на устройства и аксессуары</p>
+          </div>
+        </article>
+        <article class="advantages__article">
+          <img class="advantages__article-img" src="./images/advantages/advantages-5.svg" alt="Розовая корзина">
+          <div class="advantages__flex-wrapper">
+          <h3 class="advantages__title">Безопасная оплата</h3>
+          <p class="advantages__text">Оплата после получения товара</p>
+          </div>
+        </article>
+        <article class="advantages__article">
+          <img class="advantages__article-img" src="./images/advantages/advantages-6.svg" alt="Розовая корзина">
+          <div class="advantages__flex-wrapper">
+          <h3 class="advantages__title">Бесплатная консультация</h3>
+          <p class="advantages__text">В любом удобном для вас  <br>формате, 7 дней в неделю</p>
+          </div>
+        </article>
+      </div>
+      </div>
+      </section>
+      <section class="catalog__section section">
+        <div class="container">
+          <h2 class="title-lg">Спецпредложения <span class="catalog__title-accent">14</span></h2>
+          <div class="catalog__filters">
+            <div class="catalog__filters-btns">
+            <ul class="catalog__filters-wrapper">
+              <li class="catalog__filters__item">
+                <button class="catalog__filters-button catalog__filters-btn--none">dyson стайлер для длинных волос</button>
+              </li>
+              <li class="catalog__filters__item">
+                <button class="catalog__filters-button">фен щетка дайсон</button>
+              </li>
+              <li class="catalog__filters__item">
+                <button class="catalog__filters-button">dyson стайлер красный</button>
+              </li>
+              <li class="catalog__filters__item">
+                <button class="catalog__filters-button  ">dyson hs01 airwrap compliete
+                </button>
+              </li>
+                <li class="catalog__filters__item catalog__filters__item-none ">
+                <button class="catalog__filters-button">dyson ultra f5</button>
+              </li>
+               <li class="catalog__filters__item  catalog__filters__item-none ">
+                <button class="catalog__filters-button">dyson porshe collab</button>
+              </li>
+              <li class="catalog__filters__item" id="catalogBtn" >
+                <button class="catalog__filters-link" href="">Показать еще</butt>
+              </li>
+            </ul>
+            <div class="catalog__filters-choose">
+              <!-- <select class="catalog__filters-select" name="filters" >
+                <option class="catalog__filters-option" value="popular">Сначала популярные</option>
+                <option class="catalog__filters-option" value="popular">Сначала дешёвые </option>
+                <option class="catalog__filters-option" data-value="popular">Сначала дорогие</option>
+                <option class="catalog__filters-option" data-value="popular">Новинки</option>
+                <option class="catalog__filters-option" data-value="popular">Высокий рейтинг</option>
+              </select> -->
+               <div class="catalog__filters-select catalog__filters-select--none" >
+             <div data-value="popular" class="catalog__filters-option " data-completed>
+              <p>Сначала популярное</p>
+              <svg width="17" height="10" class="catalog__filters-completed catalog__filters-completed--none catalog__filters-completed--more ">
+                <use href="./icons/sprite.svg#selected" ></use>
+              </svg>
+             </div>
+              <div data-value="cheap" class="catalog__filters-option">
+              <p>Сначала дешёвые</p>
+              <svg width="17" height="10" class="catalog__filters-completed catalog__filters-completed--none">
+                <use href="./icons/sprite.svg#selected" ></use>
+              </svg>
+             </div>
+              <div data-value="expensive" class="catalog__filters-option" >
+              <p>Сначала дорогие</p>
+              <svg width="17" height="10" class="catalog__filters-completed catalog__filters-completed--none">
+                <use href="./icons/sprite.svg#selected" ></use>
+              </svg>
+             </div>
+              <div data-value="new" class="catalog__filters-option" >
+              <p>Новинки</p>
+              <svg width="17" height="10" class="catalog__filters-completed catalog__filters-completed--none">
+                <use href="./icons/sprite.svg#selected" ></use>
+              </svg>
+             </div>
+               <div data-value="rating" class="catalog__filters-option" >
+              <p>Высокий рейтинг</p>
+              <svg width="17" height="10" class="catalog__filters-completed catalog__filters-completed--none">
+                <use href="./icons/sprite.svg#selected" ></use>
+              </svg>
+             </div>
+            </div>
+              <div class="catalog__filters-div">                
+                 <p class="catalog__filters-text">Сначала популярные</p>
+                 <svg width="10" height="17" class="catalog__filters-svg">
+                  <use href="./icons/sprite.svg#filtersArrow"></use>
+                 </svg>
+              </div>
+              
+            </div>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="catalog__products">
+            <article data-price="59990" data-rating="4.5" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                  
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="47990" data-rating="4.1" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">47 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="59990" data-rating="4.3" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article  data-price="37990" data-rating="4.7" data-new="true" class="catalog__products-article catalog__products-article--none ">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">37 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="false"  class="catalog__products-article catalog__products-article--none">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog__products">
+            <article data-price="59990" data-rating="4.5" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                  
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="47990" data-rating="4.1" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">47 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="59990" data-rating="4.3" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article  data-price="37990" data-rating="4.7" data-new="true" class="catalog__products-article catalog__products-article--none ">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">37 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="false"  class="catalog__products-article catalog__products-article--none">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+          </div>
+              </div>
+                <div class="swiper-slide">
+                <div class="catalog__products">
+            <article data-price="59990" data-rating="4.5" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                  
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="47990" data-rating="4.1" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">47 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="59990" data-rating="4.3" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article  data-price="37990" data-rating="4.7" data-new="true" class="catalog__products-article catalog__products-article--none ">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">37 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="false"  class="catalog__products-article catalog__products-article--none">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+          </div>
+              </div>
+                <div class="swiper-slide">
+                <div class="catalog__products">
+            <article data-price="59990" data-rating="4.5" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                  
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="47990" data-rating="4.1" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">47 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="59990" data-rating="4.3" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article  data-price="37990" data-rating="4.7" data-new="true" class="catalog__products-article catalog__products-article--none ">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">37 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="false"  class="catalog__products-article catalog__products-article--none">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+          </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="catalog__products">
+            <article data-price="59990" data-rating="4.5" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                  
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="47990" data-rating="4.1" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">47 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="true" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="59990" data-rating="4.3" data-new="false" class="catalog__products-article">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-1.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-1.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">59 990Р</p>
+                <p class="catalog__price-before">69 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article  data-price="37990" data-rating="4.7" data-new="true" class="catalog__products-article catalog__products-article--none ">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-2.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-2.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">37 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+            <article data-price="46990" data-rating="4.8" data-new="false"  class="catalog__products-article catalog__products-article--none">
+              <picture class="catalog__product-picture">
+                <source srcset="./images/catalog/product-3.webp"  />
+                <img class="catalog__product-img" width="440" height="440" src="./images/catalog/product-3.png" alt="Синий Фен Dyson полный комплект">
+              </picture>
+              <h3 class="catalog__product-title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h3>
+              <div class="catalog__product-available">
+                <p class="catalog__available-success">В наличии</p>
+                <p class="catalog__available-discount">-15%</p>
+              </div>
+              <div class="catalog__products-price">
+                <p class="catalog__price-now">46 990Р</p>
+                <p class="catalog__price-before">51 990 Р</p>
+              </div>
+              <div class="catalog__products-btns">
+                <div class="catalog__incremental-btn">
+                  <button id="minus" class="catalog__incremental-plus"><svg width="18" height="2" >
+                    <use href="./icons/sprite.svg#minus" ></use>
+                  </svg>
+                </button>
+                  <p class="catalog__incremental-text">1</p>
+                  <button id="plus" class="catalog__incremental-plus">
+                    <svg width="18" height="18" class="catalog__incremental-plus">
+                    <use href="./icons/sprite.svg#plus" ></use>
+                  </svg>
+                </button>
+                </div>
+                <button class="catalog__cart-btn">В корзину</button>
+              </div>
+            </article>
+          </div> -->
+        </div>
+        <div class="catalog__pages-btns">
+          <div class="catalog__pages-controls">
+            <button class="catalog__pages-left" id="left">
+              <svg class="catalog__pages-svg  catalog__pages-svg--rotate" width="35" height="30">
+                <use href="./icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </button>
+            <button class="catalog__pages-left" id="right">
+              <svg class="catalog__pages-svg" width="35" height="30">
+                <use href="./icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="catalog__pages-count"> <span id="swiperCount">1</span> из 4 </p>
+        </div>
+      </div>
+      </section>
+      <section class="reviews__section section">
+        <div class="container">
+          <h2 class="title-lg reviews__title">Отзывы <span class="title-lg--accent">151</span></h2>
+          <div class="reviews__score">
+            <div class="reviews__score-wrapper">
+              <p class="reviews__score-text">5 <span class="reviews__score-accent">/ 5</span> </p>
+              <div class="reviews__score-stars">
+                <svg class="reviews__score-img" width="25" height="24">
+                  <use href="./icons/sprite.svg#star"></use>
+                </svg>
+                <svg class="reviews__score-img" width="25" height="24">
+                  <use href="./icons/sprite.svg#star"></use>
+                </svg>
+                <svg class="reviews__score-img" width="25" height="24">
+                  <use href="./icons/sprite.svg#star"></use>
+                </svg>
+                <svg class="reviews__score-img" width="25" height="24">
+                  <use href="./icons/sprite.svg#star"></use>
+                </svg>
+                <svg class="reviews__score-img" width="25" height="24">
+                  <use href="./icons/sprite.svg#star"></use>
+                </svg>
+              </div>
+            </div>
+            <button class="reviews__score-message">Написать отзыв</button>
+          </div>
+          <div class="reviews__cards">
+            <article class="reviews__cards-article">
+              <div class="reviews__score-wrapper">
+                <p class="reviews__score-text reviews__cards-name">Ольга </p>
+                <div class="reviews__score-stars">
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="reviews__cards-content">
+                <h3 class="reviews__cards-title">Это лучший фен!</h3>
+                <p class="reviews__cards-text">Пользуюсь около месяца, хочу поделиться впечатлениями. Во-первых, фен очень легкий, удобно лежит в руке, не скользит. Кнопка включения и выключения расположена удобно, а не где-то сбоку. Мощность у фена хорошая, волосы сушит быстро</p>
+                <div class="reviews__cards-images">
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                    <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image reviews__cards-image--none" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image reviews__cards-image--none" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                </div>
+                <button id="reviews__cards-btn" class="reviews__cards-link">Смотреть все фото</button>
+              </div>
+            </article>
+            <article class="reviews__cards-article">
+              <div class="reviews__score-wrapper">
+                <p class="reviews__score-text reviews__cards-name">Татьяна </p>
+                <div class="reviews__score-stars">
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="reviews__cards-content">
+                <h3 class="reviews__cards-title">Отличный фен</h3>
+                <p class="reviews__cards-text">Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!</p>
+              </div>
+            </article>
+            <article class="reviews__cards-article">
+              <div class="reviews__score-wrapper">
+                <p class="reviews__score-text reviews__cards-name">Виктор </p>
+                <div class="reviews__score-stars">
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="reviews__cards-content">
+                <h3 class="reviews__cards-title">Быстро пришел</h3>
+                <p class="reviews__cards-text">Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!</p>
+                <div class="reviews__cards-images">
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                   <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image reviews__cards-image--none" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image reviews__cards-image--none" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                </div>
+                <button id="reviews__cards-btn" class="reviews__cards-link">Смотреть все фото</button>
+              </div>
+            </article>
+            
+            <article class="reviews__cards-article reviews__cards-article--none  ">
+              <div class="reviews__score-wrapper">
+                <p class="reviews__score-text reviews__cards-name">Виктор </p>
+                <div class="reviews__score-stars">
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                  <svg class="reviews__score-img" width="25" height="24">
+                    <use href="./icons/sprite.svg#star"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="reviews__cards-content">
+                <h3 class="reviews__cards-title">Быстро пришел</h3>
+                <p class="reviews__cards-text">Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!</p>
+                <div class="reviews__cards-images">
+                  <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                   <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image reviews__cards-image--none" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                   <a href="./images/reviews-dyson-big.jpg" data-fancybox="gallery">
+                    <img class="reviews__cards-image reviews__cards-image--none" src="./images/reviews-dyson.jpg" alt="Девушка держит в руке Dyson фен">
+                  </a>
+                </div>
+                <button id="reviews__cards-btn" class="reviews__cards-link">Смотреть все фото</button>
+              </div>
+            </article>
+          </div>
+          <button id="reviewsBtn" class="reviews__btn-more">Показать еще <svg class="reviews__btn-more--svg" width="30" height="30">
+            <use class="reviews__btn-more--use" href="./icons/sprite.svg#arrow-diagonally"></use>
+          </svg></button>
+        </div>
+      </section>
+      <section class="faq__section section">
+        <div class="container">
+          <h2 class="title-lg faq__title"><span class="faq__title-none">FAQ —</span> Часто задаваемые вопросы</h2>
+          <div class="faq__wrapper">
+            <details class="faq__details" name="faq">
+              <summary class="faq__summary">Главное отличие фена Dyson в быстром и безопасном высушивании волос?
+              </summary>
+              <p class="faq__details-text">Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.</p>
+            </details>
+            <details class="faq__details" name="faq">
+              <summary class="faq__summary">В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов?
+              </summary>
+              <p class="faq__details-text">Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.</p>
+            </details>
+            <details class="faq__details" name="faq">
+              <summary class="faq__summary">Главное отличие фена Dyson в быстром и безопасном высушивании волос?
+              </summary>
+              <p class="faq__details-text">Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.</p>
+            </details>
+            <details class="faq__details" name="faq">
+              <summary class="faq__summary">В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов?
+              </summary>
+              <p class="faq__details-text">Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.</p>
+            </details>
+            <details class="faq__details" name="faq">
+              <summary class="faq__summary">Главное отличие фена Dyson в быстром и безопасном высушивании волос?
+              </summary>
+              <p class="faq__details-text">Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="news__section section">
+        <div class="container">
+          <h2 class="title-lg">Новости</h2>
+          <div class="news__wrapper-container">
+             <div class="news__wrapper">
+            <article class="news__card-article">
+              <picture class="news__card-picture">
+                <source srcset="./images/news/news-1.webp" />
+                <img width="440" height="294" class="news__card-img" src="./images/news/news-1.jpg" alt="Розовый фен Dyson">
+              </picture>
+              <p class="news__card-date">21 декабря 2022</p>
+              <h3 class="news__card-title">Есть ли безопасные выпрямители для волос</h3>
+              <p class="news__card-text">Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+              <a class="news__card-link" href="#" >Читать далее</a>
+            </article>
+            <article class="news__card-article">
+              <picture class="news__card-picture">
+                <source srcset="./images/news/news-1.webp" />
+                <img width="440" height="294" class="news__card-img" src="./images/news/news-1.jpg" alt="Розовый фен Dyson">
+              </picture>
+              <p class="news__card-date">21 декабря 2022</p>
+              <h3 class="news__card-title">Есть ли безопасные выпрямители для волос</h3>
+              <p class="news__card-text">Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+              <a class="news__card-link" href="#" >Читать далее</a>
+            </article>
+            <article class="news__card-article news__card-article--none ">
+              <picture class="news__card-picture">
+                <source srcset="./images/news/news-1.webp" />
+                <img width="440" height="294" class="news__card-img" src="./images/news/news-1.jpg" alt="Розовый фен Dyson">
+              </picture>
+              <p class="news__card-date">21 декабря 2022</p>
+              <h3 class="news__card-title">Есть ли безопасные выпрямители для волос</h3>
+              <p class="news__card-text">Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+              <a class="news__card-link" href="#" >Читать далее</a>
+            </article>
+          </div>
+           <div class="news__wrapper news-wrapper--none">
+            <article class="news__card-article">
+              <picture class="news__card-picture">
+                <source srcset="./images/news/news-1.webp" />
+                <img width="440" height="294" class="news__card-img" src="./images/news/news-1.jpg" alt="Розовый фен Dyson">
+              </picture>
+              <p class="news__card-date">21 декабря 2022</p>
+              <h3 class="news__card-title">Есть ли безопасные выпрямители для волос</h3>
+              <p class="news__card-text">Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+              <a class="news__card-link" href="#" >Читать далее</a>
+            </article>
+            <article class="news__card-article">
+              <picture class="news__card-picture">
+                <source srcset="./images/news/news-1.webp" />
+                <img width="440" height="294" class="news__card-img" src="./images/news/news-1.jpg" alt="Розовый фен Dyson">
+              </picture>
+              <p class="news__card-date">21 декабря 2022</p>
+              <h3 class="news__card-title">Есть ли безопасные выпрямители для волос</h3>
+              <p class="news__card-text">Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+              <a class="news__card-link" href="#" >Читать далее</a>
+            </article>
+            <article class="news__card-article news__card-article--none ">
+              <picture class="news__card-picture">
+                <source srcset="./images/news/news-1.webp" />
+                <img width="440" height="294" class="news__card-img" src="./images/news/news-1.jpg" alt="Розовый фен Dyson">
+              </picture>
+              <p class="news__card-date">21 декабря 2022</p>
+              <h3 class="news__card-title">Есть ли безопасные выпрямители для волос</h3>
+              <p class="news__card-text">Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+              <a class="news__card-link" href="#" >Читать далее</a>
+            </article>
+          </div>
+          </div>
+         
+          <button id="newsBtn" class="reviews__btn-more">Показать еще <svg class="reviews__btn-more--svg" width="30" height="30">
+            <use class="reviews__btn-more--use" href="./icons/sprite.svg#arrow-diagonally"></use>
+          </svg></button>
+        </div>
+      </section>
+      <section class="contact__section section">
+        <div class="container">
+          <div class="contact__flex">
+            <div class="contact__wrapper">
+              <h2 class="title-lg">Свяжитесь с нами</h2>
+              <div class="contact__inputs"> 
+                <input class="contact__inputs-name" type="text" placeholder="Ваше имя">
+                <input class="contact__input-tel" type="tel" placeholder="Ваш номер телефона"></div>
+                <button class="contact__button">Оставить заявку</button>
+            </div>
+            <div class="subscribe__wrapper">
+              <h2 class="title-lg">Подпишитесь на новости</h2>
+              <div>
+                <input class="subscribe__input-email" type="email" placeholder="Ваш e-mail">
+              </div>
+              <button class="subscribe__button">Подписаться</button>
+              <div class="subscribe__policy">
+                <label class="custom-checkbox">
+                  <div class="">
+                    <input class="subscribe__input-checkbox" type="checkbox">
+                    <span class="checkmark"></span>
+                  </div>
+                  <p class="subscribe__policy-text">Я ознакомлен(а) с политикой конфиденциальности и согласен(а) с обработкой персональных данных</p>
+                </label>
+                
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="#" class="logo footer__logo">
+          <img
+            width="183"
+            height="77"
+            class="footer__logo-img"
+            src="./icons/logo.svg"
+            alt="Логотип Dyson"
+          />
+        </a>
+        <h2 class="footer__title">О компании</h2>
+        <div class="footer__contacts">
+          <div class="footer__bio">
+            <div class="footer__bio-column">
+              <h3 class="footer__bio-title">Магазин</h3>
+            <ul class="footer__bio-list">
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Фены Dyson Supersonic</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Стайлеры Dyson Airwrap</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Выпрямители Dyson Corrale</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Пылесосы</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Климатическая техника</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Освещение</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="#" class="footer__bio-link">Аксессуары</a>
+              </li>
+            </ul>
+            </div>
+            <div class="footer__bio-column">
+              <h3 class="footer__bio-title">Общая информация</h3>
+            <ul class="footer__bio-list">
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Фены Dyson Supersonic</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Стайлеры Dyson Airwrap</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Выпрямители Dyson Corrale</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Пылесосы</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Климатическая техника</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Освещение</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Аксессуары</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+          <div class="footer__socials">
+            <div class="footer__bio-column">
+              <h3 class="footer__bio-title">Акции</h3>
+            <ul class="footer__bio-list">
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Фены Dyson Supersonic</a>
+              </li>
+              <li class="footer__bio-item">
+                <a href="" class="footer__bio-link">Стайлеры Dyson Airwrap</a>
+              </li>
+            </ul>
+            </div>
+            <div class="footer__socials-number">
+              <h3 class="footer__socials-title">Отдел логистики:</h3>
+              <ul class="footer__socials-list">
+                <li class="footer__socials-item">
+                  <a href="#" class="footer__socials-link">+7 (999) 800-45-54</a>
+                </li>
+              </ul>
+              <div class="footer__socials-network">
+                <a href="#" class="footer__socials-btn">
+                <svg width="40" height="40" class="footer__socials-svg">
+                  <use href="./icons/sprite.svg#telegram"></use>
+                </svg>
+                </a>
+                <a href="#" class="footer__socials-btn">
+                  <svg width="40" height="40" class="footer__socials-svg">
+                    <use href="./icons/sprite.svg#vk"></use>
+                  </svg>
+                  </a>
+                <a href="#" class="footer__socials-btn">
+                  <svg width="40" height="40" class="footer__socials-svg">
+                    <use href="./icons/sprite.svg#yt"></use>
+                  </svg>
+                  </a>
+              </div>
+            </div>
+            <div class="footer__socials-policy">
+              <p class="footer__policy-text">Интернет-магазин dysmarket.ru, 2022 © Все права защищены.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+.faq__section {
+  margin-top: 150px;
+  padding-block: 150px;
+  background: #f8f8f8;
+}
+
+@media (width<=1200px) {
+  .faq__section {
+    margin-top: 60px;
+  }
+}
+
+@media (width<=768px) {
+  .faq__section {
+    padding-block: 60px;
+  }
+}
+
+.faq__title {
+  border-bottom: 1px solid var(--light-gray);
+  width: 100%;
+  padding-bottom: 60px;
+  margin: 0;
+  max-width: inherit;
+}
+@media (width<=1200px) {
+  .faq__title {
+    padding-bottom: 40px;
+  }
+}
+.faq__details {
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.faq__summary {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--main-color);
+  padding-block: 34px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (width<=1200px) {
+  .faq__summary {
+    font-size: 16px;
+    padding-block: 18px;
+    padding-right: 15px;
+  }
+}
+
+.faq__details-text {
+  max-width: 904px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-color);
+  padding-bottom: 50px;
+}
+
+@media (width<=1200px) {
+  .faq__details-text {
+    font-size: 12px;
+    padding-bottom: 42px;
+  }
+}
+
+@media (width<=768px) {
+  .faq__details-text {
+    max-width: 544px;
+    font-size: 10px;
+    padding-bottom: 36px;
+  }
+}
+
+@media (width<= 768px) {
+  .faq__summary {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 140%;
+  }
+}
+
+summary::marker {
+  display: none;
+}
+
+.faq__summary::after {
+  content: "";
+  width: 100%;
+  width: 38px;
+  flex-shrink: 0;
+  height: 38px;
+  background-position: center;
+  background-size: cover;
+  background: url(../../icons/plus.svg);
+}
+
+.faq__details[open] {
+  .faq__summary::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background: url(../../icons/close.svg);
+    background-position: center;
+  }
+}
+
+@media (width<=1200px) {
+  .faq__summary::after {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+  }
+}
+
+@media (width<= 768px) {
+  .faq__title-none {
+    display: none;
+  }
+  .faq__summary::after {
+    width: 22px;
+    height: 22px;
+    background-position: center;
+  }
+}
